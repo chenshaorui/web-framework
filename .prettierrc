@@ -1,7 +1,7 @@
 {
   "overrides": [
     {
-      "files": [".prettierrc", ".lintstagedrc", ".huskyrc"],
+      "files": [".prettierrc", ".lintstagedrc", ".huskyrc", ".commitlintrc"],
       "options": {
         "parser": "json"
       }

@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "type-empty": [2, "never"],
+    "type-case": [2, "always", "lower-case"],
+    "type-enum": [
+      2,
+      "always",
+      ["feat", "fix", "style", "test", "docs", "chore", "refactor", "revert"]
+    ],
+    "scope-case": [2, "always", "lower-case"],
+    "subject-empty": [2, "never"],
+    "subject-case": [
+      2,
+      "never",
+      ["upper-case", "pascal-case", "sentence-case", "start-case"]
+    ],
+    "body-leading-blank": [2, "always"],
+    "footer-leading-blank": [2, "always"]
+  }
+}
