@@ -2,7 +2,9 @@
   "name": "web-framework",
   "private": true,
   "license": "UNLICENSED",
-  "workspaces": [],
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "commitlint": "^11.0.0",
     "husky": "^4.3.6",
