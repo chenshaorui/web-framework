@@ -3,5 +3,6 @@
   "version": "independent",
   "npmClient": "yarn",
   "stream": "true",
-  "conventionalCommits": true
+  "conventionalCommits": true,
+  "useWorkspaces": true
 }
