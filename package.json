@@ -1,5 +1,8 @@
 {
   "name": "web-framework",
   "private": true,
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
 }
