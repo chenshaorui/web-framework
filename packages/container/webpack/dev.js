@@ -7,4 +7,5 @@ module.exports = merge(commonConfigs, {
   devServer: {
     contentBase: "./dist",
   },
+  devtool: "source-map",
 });
