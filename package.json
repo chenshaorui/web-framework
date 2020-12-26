@@ -5,6 +5,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "start": "lerna run start --scope @web-framework/container",
+    "build": "lerna run build"
+  },
   "devDependencies": {
     "commitlint": "11.0.0",
     "eslint": "7.16.0",
