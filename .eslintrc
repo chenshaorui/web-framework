@@ -1,3 +1,9 @@
 {
-  "extends": ["eslint:recommended"]
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 11
+  },
+  "env": {
+    "node": true
+  }
 }

@@ -3,3 +3,6 @@
 
 # Yarn
 node_modules
+
+# Web Framework
+packages/*/dist
