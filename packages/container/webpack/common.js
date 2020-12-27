@@ -6,7 +6,19 @@ const packageDir = path.resolve(__dirname, "..");
 
 module.exports = {
   entry: {
-    app: "./src/index.js",
+    app: "./src/index.ts",
+  },
+  module: {
+    rules: [
+      {
+        use: "babel-loader",
+        test: /\.(js|ts)x?$/,
+        exclude: /node_modules/,
+      },
+    ],
+  },
+  resolve: {
+    extensions: [".js", ".ts", "jsx", "tsx"],
   },
   output: {
     filename: "index.js",
