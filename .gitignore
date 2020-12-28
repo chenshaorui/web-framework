@@ -6,3 +6,4 @@ node_modules
 
 # Web Framework
 packages/*/dist
+tools/*/dist
