@@ -6,7 +6,10 @@
     "build": "rollup --config rollup.config.js"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@rollup/plugin-babel": "^5.2.2",
     "@tools/rollup-config-factory": "^0.0.0",
+    "@types/babel__core": "^7.1.12",
     "rollup": "^2.35.1"
   }
 }

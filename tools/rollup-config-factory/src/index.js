@@ -1,3 +1,5 @@
+const { babel } = require("@rollup/plugin-babel");
+
 const getRollupConfig = () => {
   return {
     input: "src/index.js",
@@ -7,6 +9,7 @@ const getRollupConfig = () => {
         format: "umd",
       },
     ],
+    plugins: [babel()],
   };
 };
 
