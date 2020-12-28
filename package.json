@@ -3,7 +3,8 @@
   "private": true,
   "license": "UNLICENSED",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "tools/*"
   ],
   "scripts": {
     "start": "lerna run start --scope @web-framework/container",
