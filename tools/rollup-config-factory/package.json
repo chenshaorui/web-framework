@@ -1,5 +1,12 @@
 {
   "name": "@tools/rollup-config-factory",
   "version": "0.0.0",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "peerDependencies": {
+    "rollup": "^2.35.1"
+  }
 }
