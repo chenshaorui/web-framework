@@ -1,5 +1,12 @@
 {
   "name": "@web-framework/kernel",
   "version": "0.0.0",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "@tools/rollup-config-factory": "^0.0.0",
+    "rollup": "^2.35.1"
+  }
 }
