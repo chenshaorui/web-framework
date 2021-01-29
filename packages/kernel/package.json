@@ -11,7 +11,7 @@
   "main": "dist/index.bundle.js",
   "devDependencies": {
     "@babel/core": "7.12.10",
-    "@rollup/plugin-babel": "5.2.2",
+    "@rollup/plugin-babel": "5.2.3",
     "@rollup/plugin-typescript": "8.1.0",
     "@tools/rollup-config-factory": "^0.0.0",
     "@types/babel__core": "7.1.12",
