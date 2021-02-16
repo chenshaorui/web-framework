@@ -12,7 +12,7 @@
   "devDependencies": {
     "@babel/core": "7.12.16",
     "@rollup/plugin-babel": "5.3.0",
-    "@rollup/plugin-typescript": "8.1.1",
+    "@rollup/plugin-typescript": "8.2.0",
     "@tools/rollup-config-factory": "^0.0.0",
     "@types/babel__core": "7.1.12",
     "rollup": "2.39.0",
