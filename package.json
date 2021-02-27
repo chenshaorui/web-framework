@@ -13,7 +13,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "4.15.0",
     "@typescript-eslint/parser": "4.15.0",
-    "commitlint": "11.0.0",
+    "commitlint": "12.0.1",
     "eslint": "7.20.0",
     "husky": "5.0.9",
     "lerna": "3.22.1",
